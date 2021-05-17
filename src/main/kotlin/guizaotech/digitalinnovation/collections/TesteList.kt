@@ -21,4 +21,6 @@ fun main() {
     })
     println(listTest.maxByOrNull { it.salary })
     println(listTest.minByOrNull { it.salary })
+    println(listTest.filter { it.type == "type 1" })
+    println(listTest.filter { it.type == "type 2" })
 }
