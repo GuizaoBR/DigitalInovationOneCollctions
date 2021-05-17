@@ -5,4 +5,8 @@ fun main() {
     arrayInt.forEach {
         println(it)
     }
+
+
+
 }
+
