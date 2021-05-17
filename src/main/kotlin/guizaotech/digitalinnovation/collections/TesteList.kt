@@ -15,4 +15,10 @@ fun main() {
     }.forEach{
         println(it)
     }
+
+    println(listTest.count {
+        it.salary > 3000
+    })
+    println(listTest.maxByOrNull { it.salary })
+    println(listTest.minByOrNull { it.salary })
 }
